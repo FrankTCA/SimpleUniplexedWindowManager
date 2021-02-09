@@ -1,0 +1,16 @@
+[package]
+name = "SimpleUniplexedWindowManager"
+version = "0.1.0"
+authors = ["Frank <frank@steamedveggie.com>"]
+edition = "2018"
+
+[dependencies.xlib]
+git = "https://github.com/Kintaro/rust-xlib.git"
+branch = "class_hint"
+
+[dependencies.xinerama]
+git = "https://github.com/Kintaro/rust-xinerama.git"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
